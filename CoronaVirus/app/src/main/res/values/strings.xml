@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">COVID\'19</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Corona virus</string>
+    <string name="nav_header_subtitle">Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_info_1">Get latest updates from WHO</string>
+    <string name="app_info_2">Get best tips on Social Distancing</string>
+    <string name="app_info_3">Track live data</string>
+    <string name="app_info_4">Stay connected!</string>
+
+    <string name="tracker_total_Case">Total cases:</string>
+    <string name="tracker_total_death">Total deaths:</string>
+    <string name="tracker_total_recovered">Total recovered:</string>
+    <string name="tracker_country">Country</string>
+    <string name="tracker_item_total_case">Total Cases:</string>
+    <string name="tracker_item_total_recovered">Total Recovered:</string>
+    <string name="tracker_item_total_death">Total Deaths:</string>
+    <string name="tracker_item_new_cases_today">New Cases Today:</string>
+    <string name="tracker_item_new_deaths_today">New Deaths Today:</string>
+    <string name="tracker_item_total_active_cases">Total Active Cases:</string>
+    <string name="tracker_item_total_serious_cases">Total Serious Cases:</string>
+    <string name="tracker_view_timeline">View timelime</string>
+    <string name="tracker_share_data">Share Data</string>
+    <string name="tracker_subscribe">Subscribe</string>
+    <string name="tracker_click_to_see_more_details">Click to see more details</string>
+
+    <string name="district_subscribed_title">Subscribed district list</string>
+    <string name="district_subscribed_no_subscription_yet">No subscription yet!</string>
+
+    <string name="state_data_active">Active:</string>
+    <string name="state_data_confirmed">Confirmed:</string>
+    <string name="state_data_death">Deaths:</string>
+    <string name="state_data_recovered">Recovered:</string>
+    <string name="state_click_to_see">Click to see district wise data</string>
+
+
+    <string name="timeline_new_daily_case">New Case:</string>
+    <string name="timeline_new_daily_deaths">New Deaths:</string>
+    <string name="timeline_total_cases">Total Cases:</string>
+    <string name="timeline_total_recoveries">Total Recoveries:</string>
+    <string name="timeline_total_deaths">Total Deaths:</string>
+    <string name="timeline_timeline">Timeline</string>
+    <string name="timeline_view_graph">View Graph</string>
+    <string name="timeline_view_state_data">State Wise Data</string>
+
+    <string name="state_wise_title">State wise data</string>
+
+    <string name="reload">Reload</string>
+    <string name="Done">Done</string>
+    <string name="Download">Download</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_news">News</string>
+    <string name="menu_tracker">Tracker</string>
+    <string name="menu_symptoms">Symptoms and Prevention</string>
+    <string name="menu_socialdistancing">Social Distancing</string>
+    <string name="menu_contactus">Contact us</string>
+
+    <string name="menu_help">Help</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_bar">BottomBar</string>
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_tracker">Tracker</string>
+    <string name="title_symptoms">Symptoms</string>
+    <string name="title_social_distancing">Social Distancing</string>
+
+    <string name="splashscreen_text">Made with            in India</string>
+
+    <string name="help_about_corona">Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can range from mild to lethal. Mild illnesses include some cases of the common cold (which has other possible causes, predominantly rhinoviruses), while more lethal varieties can cause SARS, MERS, and COVID-19.</string>
+    <string name="help_helpline_nos">Helpline Nos.</string>
+
+    <string name="login_skip">Skip</string>
+    <string name="login_submit">Submit</string>
+    <string name="login_male">Male</string>
+    <string name="login_female">Female</string>
+    <string name="login_name">Name</string>
+    <string name="login_email">Email</string>
+    <string name="login_phone">Mobile Number</string>
+
+    <string name="settings_website">www.coronasars.org</string>
+    <string name="settings_developer_name_basu">Basu</string>
+    <string name="settings_developer_name_ashish">Ashish</string>
+    <string name="settings_developed_by">Developed by:</string>
+    <string name="settings_developer_profile">Basu is an International Diana Awardee and UNESCO Multimedia Youth Awardee. Graduated from the University of Delhi wih a major in Computer Science, Basu works with Dexterity Global (a Forbes Under30 awarded organization). Basu is currently a Microsoft Student Partner and has served as Regional Ambassador to India for United Nation Environmental Programme.</string>
+    <string name="settings_choose_language">Language</string>
+    <string name="settings_notification">Notification</string>
+    <string name="settings_english">English</string>
+    <string name="settings_hindi">Hindi</string>
+    <string name="settings_notification_in_focus">In Focus</string>
+    <string name="settings_notification_app_update">App Update</string>
+    <string name="settings_notification_social_news">Social Distancing News</string>
+    <string name="settings_notification_social_list">Social Distancing List</string>
+    <string name="settings_notification_helpline">Helpline Number</string>
+    <string name="settings_live_tracking">Live Tracking</string>
+    <string name="settings_country_live_tracking">Live country tracking</string>
+    <string name="district_unsubscribe">District live tracking</string>
+
+    <string name="apply">Apply</string>
+
+    <string name="home_title">Coronavirus disease (COVID-19) Pandemic</string>
+    <string name="home_about_corona">Coronaviruses are a group of related viruses that cause diseases in mammals and birds.</string>
+    <string name="home_in_focus">In Focus</string>
+    <string name="home_important_links">Important Links</string>
+    <string name="home_link_1">World Health Organisation (WHO)</string>
+    <string name="home_link_1_1" translatable="false">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</string>
+    <string name="home_link_2">CDC\'s Guidance on COVID-19</string>
+    <string name="home_link_2_1" translatable="false">https://www.cdc.gov/coronavirus/2019-ncov/index.html</string>
+    <string name="home_link_3">Google COVID-19 Map</string>
+    <string name="home_link_3_1" translatable="false">https://google.com/covid19-map/?hl=en</string>
+    <string name="home_link_4">Twitter Corona Virus Tweets</string>
+    <string name="home_link_4_1" translatable="false">https://twitter.com/hashtag/coronavirus?lang=en</string>
+    <string name="home_link_5">COVID-19 India</string>
+    <string name="home_link_5_1" translatable="false">https://www.mohfw.gov.in/</string>
+    <string name="home_link_6">COVID-19 Resource Centre</string>
+    <string name="home_link_6_1" translatable="false">https://www.thelancet.com/coronavirus</string>
+    <string name="home_link_7">Whatsapp Coronavirus Information Hub</string>
+    <string name="home_link_7_1" translatable="false">https://www.whatsapp.com/coronavirus/</string>
+    <string name="home_show_live_tracking">Show live tracking in notification</string>
+    <string name="home_show_district_live">You can now subscribe to several districts. You will get notification once a case is detected in that district.</string>
+
+    <string name="symptom_title">COVID-19</string>
+    <string name="symptom_title_1">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</string>
+    <string name="symptom_title_2">The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</string>
+    <string name="symptom_title_3">Symptoms</string>
+    <string name="symptom_title_4">The COVID-19 virus affects different people in different ways. COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment. People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.
+These symptoms may appear 2-14 days after exposure (based on the incubation period of MERS-CoV viruses).</string>
+    <string name="symptom_title_5">Prevention</string>
+    <string name="symptom_prevention_1">Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</string>
+    <string name="symptom_prevention_2">Maintain at least 1 metre distance between you and people coughing or sneezing.</string>
+    <string name="symptom_prevention_3">Avoid touching your face.​</string>
+    <string name="symptom_prevention_4">Cover your mouth and nose when coughing or sneezing.​</string>
+    <string name="symptom_prevention_5">Stay home if you feel unwell.</string>
+    <string name="symptom_prevention_6">Refrain from smoking and other activities that weaken the lungs.​</string>
+    <string name="symptom_prevention_7">Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.​</string>
+    <string name="symptom_symptom_1">Fever</string>
+    <string name="symptom_symptom_2">Tiredness</string>
+    <string name="symptom_symptom_3">Dry Cough</string>
+    <string name="symptom_symptom_4">Shortness of Breath​</string>
+    <string name="symptom_symptom_5">Aches and Pains</string>
+    <string name="symptom_symptom_6">Sore Throat</string>
+    <string name="symptom_symptom_7">Diarrhoea, Nausea</string>
+    <string name="symptom_symptom_8">Runny Nose</string>
+
+    <string name="social_title_1">Practise social distancing</string>
+    <string name="social_title_3">A specially curated list just for you!</string>
+    <string name="social_title_2">Here are few recommendations</string>
+    <string name="social_news">News</string>
+    <string name="social_entertainment">Entertainment</string>
+    <string name="social_education">Education</string>
+    <string name="social_health">Healthcare</string>
+    <string name="social_gaming">Gaming</string>
+    <string name="social_bizarre">Bizarre Website</string>
+    <string name="social_virtual_socializing">Virtual Socializing</string>
+    <string name="title_activity_help">Help</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_download_data">DownloadData</string>
+    <string name="title_activity_check">Check</string>
+
+    <string name="title_activity_country_chart_viewer">CountryChartViewer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

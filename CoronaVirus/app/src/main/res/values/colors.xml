@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffd54f</color>
+    <color name="colorPrimaryDark">#c8a415</color>
+    <color name="colorPrimaryLight">#ffff81</color>
+    <color name="colorTextPrimary">#000000</color>
+
+    <color name="_bg__google_xl_2_ek2_color">#ffffff</color>
+    <color name="_bg__home_page_ek2_color">#000000</color>
+    <color name="rectangle_3_color">#ee1fee</color>
+    <color name="rectangle_4_color">#f6e489</color>
+    <color name="home_subtitle">#602109</color>
+    <color name="home_title">#5f3478</color>
+    <color name="home_news_title">#480c41</color>
+    <color name="home_news_subtitle">#aca1ab</color>
+    <color name="splashscreen_text_color">#4e5a78</color>
+
+    <color name="colorSecondary">#f57f17</color>
+    <color name="colorSecondaryDark">#bc5100</color>
+    <color name="colorSecondaryLight">#ffb04c</color>
+    <color name="colorTextSecondary">#000000</color>
+
+    <color name="colorAccent">#ffde59</color>r>
+    <color name="colorAccentDark">#e53974</color>
+
+    <color name="awesome_black">#3b4148</color>
+    <color name="white">#fff</color>
+    <color name="reddish_cream">#E19E9E</color>
+    <color name="black">#000000</color>
+    <color name="grey_f5f5">#f5f5f5</color>
+    <color name="grey_8282">#828282</color>
+    <color name="grey_d7d7">#d7d7d7</color>
+    <color name="grey_efef">#efefef</color>
+    <color name="blue_grey">#607D8B</color>
+    <color name="blue_grey_light">#7f97a2</color>
+    <color name="grey_fafa">#fafafa</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="deep_blue">#0e6f9c</color>
+    <color name="deep_blue_dark">#07374e</color>
+
+    <color name="purple_1">#702656</color>
+    <color name="purple_2">#6A2E7B</color>
+    <color name="yellow_dark">#ECC078</color>
+    <color name="yellow_light">#ffff12</color>
+    <color name="cream">#fff2cc</color>
+
+    <color name="teal">#00695C</color>
+    <color name="cyan">#38b6ff</color>
+    <color name="pink">#FF4081</color>
+    <color name="grey_e2e2">#e2e2e2</color>
+    <color name="dark_red">#ff0000</color>
+    <color name="deep_pink">#f80759</color>
+    <color name="light_pink">#f2709c</color>
+    <color name="light_pink_deep">#a94e6d</color>
+    <color name="light_orange">#ff9472</color>
+    <color name="light_green">#A8CABA</color>
+    <color name="green">#4b8b4b</color>
+    <color name="bright_green">#00CD00</color>
+    <color name="light_green_dark">#758d82</color>
+    <color name="light_grey">#e9edf5</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+    </array>
+
+</resources>

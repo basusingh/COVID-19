@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/topLayout"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/home_news_title"
+            android:textStyle="bold"
+            android:id="@+id/state"
+            android:fontFamily="Baloo Paaji 2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_confirmed"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/confirmed"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_death"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/deceased"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_recovered"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/recovered"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/home_news_subtitle"
+            android:text="@string/state_click_to_see"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,587 @@
+<androidx.core.widget.NestedScrollView android:id="@+id/home_page"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background_gradient"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="15dp">
+
+
+
+        <RelativeLayout android:id="@+id/component_2___1"
+            android:layout_marginTop="26dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View android:id="@+id/rectangle_3"
+                android:background="@drawable/rectangle_3_shape"
+                android:alpha="0.23999999463558"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="83dp"
+                android:layout_height="319dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/component_3___1"
+            android:layout_marginTop="102dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View android:id="@+id/rectangle_4"
+                android:background="@drawable/rectangle_4_shape"
+                android:alpha="0.25999999046326"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="83dp"
+                android:layout_height="319dp" />
+
+        </RelativeLayout>
+
+        <ImageView android:id="@+id/corona_image"
+            android:src="@drawable/corona_small"
+            android:layout_marginTop="70dp"
+            android:layout_width="152dp"
+            android:layout_height="153dp" />
+
+        <LinearLayout android:id="@+id/title"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/corona_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/home_title"
+                android:fontFamily="Baloo Paaji 2"
+                android:textSize="23sp"
+                android:textColor="@color/home_title"
+                android:layout_width="197dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_title" />
+
+            <TextView
+                android:fontFamily="Baloo Paaji 2"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_title_1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/in_focus_layout"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="13dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/home_news_title"
+                        android:id="@+id/in_focus_text"
+                        android:text="@string/symptom_title_2"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:fontFamily="Baloo Paaji 2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/home_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_title_3" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_fever"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_1"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:tint="@color/home_news_title"
+                            android:src="@drawable/ic_tiredness"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_2"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:tint="@color/home_news_title"
+                            android:src="@drawable/ic_dry_cough"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textColor="@color/home_news_subtitle"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_3"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:tint="@color/home_news_title"
+                            android:src="@drawable/ic_shortness_breath"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_4"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:tint="@color/home_news_title"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_aches_pains"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_5"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:tint="@color/home_news_title"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_sore_throat"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textColor="@color/home_news_subtitle"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_6"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:tint="@color/home_news_title"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_diarrhea_nausea"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textColor="@color/home_news_subtitle"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_7"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:tint="@color/home_news_title"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_running_nose"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textColor="@color/home_news_subtitle"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_symptom_8"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+                android:fontFamily="Baloo Paaji 2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/home_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_title_5" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_wash_hands"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_1"/>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_distance_one_metre"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_2"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_touch_face"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_3"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_cover_cough"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_4"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_stay_home"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_5"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_no_smoking"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_6"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_distance_one_metre"
+                            android:tint="@color/home_news_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/home_news_subtitle"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/symptom_prevention_7"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                ads:adSize="BANNER"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adUnitId="ca-app-pub-9789061962447683/6437401055">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

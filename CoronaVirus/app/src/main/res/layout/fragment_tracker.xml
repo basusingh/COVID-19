@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home_background_gradient"
+    android:fillViewport="true"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/mainLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="Baloo Paaji 2"
+                android:textColor="@color/home_news_title"
+                android:text="@string/tracker_total_Case"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="Baloo Paaji 2"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:id="@+id/total_cases"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="Baloo Paaji 2"
+                android:textColor="@color/home_news_title"
+                android:layout_gravity="center_vertical"
+                android:text="@string/tracker_total_death"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="Baloo Paaji 2"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:id="@+id/total_deaths"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="Baloo Paaji 2"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/home_news_title"
+                android:text="@string/tracker_total_recovered"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:fontFamily="Baloo Paaji 2"
+                android:id="@+id/total_recovered"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:fontFamily="Baloo Paaji 2"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/tracker_country" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/fastscroller"/>
+
+            <com.reddit.indicatorfastscroll.FastScrollerView
+                android:id="@+id/fastscroller"
+                android:layout_width="20dp"
+                app:iconColor="@color/dark_red"
+                android:textColor="@color/home_title"
+                android:layout_alignParentEnd="true"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"/>
+
+            <com.reddit.indicatorfastscroll.FastScrollerThumbView
+                android:id="@+id/fastscroller_thumb"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                app:thumbColor="@color/deep_pink"
+                android:layout_alignBottom="@+id/fastscroller"
+                android:layout_alignTop="@+id/fastscroller"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/fastscroller" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_marginTop="250dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="15dp"
+        android:visibility="gone"
+        android:layout_marginTop="250dp"
+        app:cardElevation="3dp"
+        android:id="@+id/btn_reloadLayout"
+        app:cardBackgroundColor="@color/home_title">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/btn_reload"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/reload"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/white"/>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

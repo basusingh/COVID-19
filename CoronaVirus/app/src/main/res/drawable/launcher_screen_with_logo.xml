@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:angle="225"
+                android:endColor="#fff4aaff"
+                android:startColor="#ffffd54f" />
+
+        </shape>
+    </item>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/coronal_ultra_small" />
+    </item>
+
+    <item android:bottom="100dp" android:gravity="bottom">
+        <bitmap
+            android:gravity="center_horizontal"
+            android:src="@drawable/made_with_love" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.basusingh.coronavirus.fragment.home"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.basusingh.coronavirus.fragment.news"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_tracker"
+        android:name="com.basusingh.coronavirus.fragment.tracker"
+        android:label="@string/title_tracker"
+        tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+        android:id="@+id/navigation_symptoms"
+        android:name="com.basusingh.coronavirus.fragment.symptoms"
+        android:label="@string/title_symptoms"
+        tools:layout="@layout/fragment_symptoms" />
+
+    <fragment
+        android:id="@+id/navigation_social_distancing"
+        android:name="com.basusingh.coronavirus.fragment.socialdistancing"
+        android:label="@string/title_social_distancing"
+        tools:layout="@layout/fragment_socialdistancing" />
+
+
+</navigation>

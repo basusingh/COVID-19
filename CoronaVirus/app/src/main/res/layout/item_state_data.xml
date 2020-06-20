@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/topLayout"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/home_news_title"
+            android:textStyle="bold"
+            android:id="@+id/title"
+            android:fontFamily="Baloo Paaji 2"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/total_new_cases"
+                android:tint="@color/home_subtitle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_active"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/active"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_done"
+                android:tint="@color/home_subtitle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_confirmed"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/confirmed"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_death"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/deceased"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_title"
+                android:text="@string/state_data_recovered"
+                android:fontFamily="Baloo Paaji 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/home_subtitle"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:id="@+id/recovered"
+                android:fontFamily="Baloo Paaji 2"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/btn_share_data"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_share"
+                android:layout_gravity="center_vertical"
+                android:tint="@color/home_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/home_subtitle"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/tracker_share_data"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/btn_subscribe"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_heart_filled"
+                android:layout_gravity="center_vertical"
+                android:tint="@color/home_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/home_subtitle"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/tracker_subscribe"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

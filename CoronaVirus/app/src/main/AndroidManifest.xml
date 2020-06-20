@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.basusingh.coronavirus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:name">
+        <service
+            android:name=".utils.JobSchedulerCheckAppVersion"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <service
+            android:name=".utils.JobSchedulerLaunchLiveTracker"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".WebsiteTest" />
+        <activity android:name=".AppBlockedFromUsage" />
+        <activity android:name=".DistrictSubscribedList" />
+
+        <service
+            android:name=".utils.LiveDataForegroundService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".utils.NetworkChangeReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".utils.NotificationCancelReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.basusingh.coronavirus.android.action.broadcast" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".FullScreenMessageViewer"
+            android:theme="@style/SplashTheme_Without_Bg" />
+        <activity android:name=".IndianStateData" />
+        <activity android:name=".IndiaStateList" />
+
+        <service
+            android:name=".utils.LocationService"
+            android:exported="false" />
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".CountryChartViewer" />
+        <activity
+            android:name=".CountryTimelineViewer"
+            android:label="@string/title_activity_country_chart_viewer" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".appstart.DownloadData"
+            android:label="@string/title_activity_download_data"
+            android:theme="@style/SplashTheme_Without_Bg" />
+        <activity
+            android:name=".appstart.AppInfoPage"
+            android:label="@string/title_activity_download_data"
+            android:theme="@style/SplashTheme_Without_Bg" />
+        <activity
+            android:name=".appstart.Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/SplashTheme_Without_Bg" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" />
+        <activity android:name=".MainActivity" />
+
+        <receiver
+            android:name=".utils.LocationProviderChangedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".utils.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-978906196244kjljkl546456456547683~8515139176" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+    </application>
+
+</manifest>

@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">COVID\'19</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रावर बंद करें</string>
+    <string name="nav_header_title">कोरोना वाइरस</string>
+    <string name="nav_header_subtitle">कोरोनावायरस रोग (COVID-19) एक नया वायरस के कारण होने वाला एक संक्रामक रोग है।</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="action_settings">सेटिंग्स </string>
+
+    <string name="app_info_1">डब्ल्यूएचओ से नवीनतम अपडेट प्राप्त करें</string>
+    <string name="app_info_2">सोशल डिस्टेंसिंग के बेहतरीन टिप्स पाएं</string>
+    <string name="app_info_3">लाइव डेटा ट्रैक करें</string>
+    <string name="app_info_4">जानकारी से जुड़े रहें!</string>
+
+    <string name="tracker_total_Case">कुल मामले</string>
+    <string name="tracker_total_death">कुल मृत्यु</string>
+    <string name="tracker_total_recovered">कुल स्वस्थ</string>
+    <string name="tracker_country">देश</string>
+    <string name="tracker_item_total_case">कुल मामले:</string>
+    <string name="tracker_item_total_recovered">कुल पुनर्प्राप्त:</string>
+    <string name="tracker_item_total_death">कुल मृत्यु:</string>
+    <string name="tracker_item_new_cases_today">नए मामले आज:</string>
+    <string name="tracker_item_new_deaths_today">आज नई मृत्यु:</string>
+    <string name="tracker_item_total_active_cases">कुल सक्रिय मामले:</string>
+    <string name="tracker_item_total_serious_cases">कुल गंभीर मामले:</string>
+    <string name="tracker_view_timeline">घटनाक्रम देखें</string>
+    <string name="tracker_share_data">शेयर करे</string>
+    <string name="tracker_subscribe">लाइव डाटा पाए</string>
+    <string name="tracker_click_to_see_more_details">क्लिक करे और जानकारी पाने के लिए</string>
+
+    <string name="district_subscribed_title">लाइव डाटा पाने का लिस्ट</string>
+    <string name="district_subscribed_no_subscription_yet">अभी तक लिस्ट खाली है</string>
+
+    <string name="state_data_active">सक्रिय मामले:</string>
+    <string name="state_data_confirmed">पुष्टि हुए मामले:</string>
+    <string name="state_data_death">कुल मृत्यु:</string>
+    <string name="state_data_recovered">कुल पुनर्प्राप्त:</string>
+    <string name="state_click_to_see">क्लिक करे जिला के डेटा देखने के लिये</string>
+
+    <string name="timeline_new_daily_case">नई केस:</string>
+    <string name="timeline_new_daily_deaths">नई मृत्यु:</string>
+    <string name="timeline_total_cases">कुल मामले:</string>
+    <string name="timeline_total_recoveries">कुल पुनर्प्राप्त:</string>
+    <string name="timeline_total_deaths">कुल मृत्यु:</string>
+    <string name="timeline_timeline">घटनाक्रम</string>
+    <string name="timeline_view_graph">ग्राफ़ देखें</string>
+    <string name="timeline_view_state_data">राज्य के डाटा देखे</string>
+
+    <string name="state_wise_title">राज्य के डाटा देखे</string>
+
+    <string name="reload">पुनः लोड करें</string>
+    <string name="Done">बंद करे</string>
+    <string name="Download">डाउनलोड करे</string>
+
+    <string name="menu_home">होम</string>
+    <string name="menu_news">समाचार</string>
+    <string name="menu_tracker">ट्रैकर</string>
+    <string name="menu_symptoms">लक्षण और रोकथाम</string>
+    <string name="menu_socialdistancing">सोशल डिस्टन्सिंग</string>
+    <string name="menu_contactus">संपर्क करें</string>
+
+    <string name="menu_help">मदद पाए</string>
+    <string name="menu_setting">सेटिंग्स</string>
+    <string name="menu_share">शेयर करे</string>
+
+
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+    <string name="title_activity_bottom_bar">BottomBar</string>
+    <string name="title_home">घर</string>
+    <string name="title_news">समाचार</string>
+    <string name="title_tracker">ट्रैकर</string>
+    <string name="title_symptoms">लक्षण</string>
+    <string name="title_social_distancing">सोशल डिस्टन्सिंग</string>
+
+    <string name="splashscreen_text">भारत में बना है</string>
+
+    <string name="help_about_corona">कोरोनावायरस एक वायरस का समूह है जो स्तनधारियों और पक्षियों में बीमारियों का कारण बनता है। मनुष्यों में, कोरोनैवायरस श्वसन पथ के संक्रमण का कारण बनता है जो हल्के से घातक तक हो सकता है। हल्के बीमारियों में सामान्य सर्दी के कुछ मामले शामिल हैं (जिनमें अन्य संभावित कारण हैं, मुख्य रूप से राइनोवायरस), जबकि अधिक घातक किस्मों में SARS, MERS और COVID-19 हो सकते हैं।</string>
+    <string name="help_helpline_nos">हेल्पलाइन संख्या।</string>
+
+    <string name="login_skip">स्किप् करे</string>
+    <string name="login_submit">सबमिट करे</string>
+    <string name="login_male">पुरुष</string>
+    <string name="login_female">महिला</string>
+    <string name="login_name">नाम</string>
+    <string name="login_email">ईमेल</string>
+    <string name="login_phone">मोबाइल नंबर</string>
+
+    <string name="settings_website">www.coronasars.org</string>
+    <string name="settings_developer_name_basu">बासु</string>
+    <string name="settings_developer_name_ashish">आशिष</string>
+    <string name="settings_developed_by">डेवलपर:</string>
+    <string name="settings_developer_profile">बासु एक अंतर्राष्ट्रीय डायना अवार्डी और यूनेस्को मल्टीमीडिया यूथ अवार्डी हैं। दिल्ली विश्वविद्यालय से कंप्यूटर साइंस में स्नातक की उपाधि प्राप्त करके, बासु डेक्सटेरिटी ग्लोबल (फोर्ब्स अंडर 30 सम्मानित संगठन) के साथ काम करतें है। बासु वर्तमान में एक माइक्रोसॉफ्ट स्टूडेंट पार्टनर हैं और संयुक्त राष्ट्र पर्यावरण कार्यक्रम के लिए भारत में क्षेत्रीय राजदूत के रूप में कार्य कर चुके हैं।</string>
+    <string name="settings_choose_language">भाषा:</string>
+    <string name="settings_notification">नोटिफिकेशन</string>
+    <string name="settings_english">अंग्रेज़ी</string>
+    <string name="settings_hindi">हिन्दी</string>
+    <string name="settings_notification_in_focus">चर्चा मे</string>
+    <string name="settings_notification_app_update">ऍप अपडेट</string>
+    <string name="settings_notification_social_news">सोशल डिस्टन्सिंग समाचार</string>
+    <string name="settings_notification_social_list">सोशल डिस्टन्सिंग लिस्ट</string>
+    <string name="settings_notification_helpline">हेल्पलाइन संख्या</string>
+    <string name="settings_live_tracking">लाइव ट्रैकिंग</string>
+    <string name="settings_country_live_tracking">देश को लाइव ट्रैक करे</string>
+    <string name="district_unsubscribe">जिला के लाइव डाटा</string>
+
+    <string name="apply">लागू करे</string>
+
+    <string name="home_title">कोरोनावायरस रोग (COVID-19) महामारी</string>
+    <string name="home_about_corona">कोरोनावायरस एक वायरस का समूह है जो स्तनधारियों और पक्षियों में बीमारियों का कारण बनता है।</string>
+    <string name="home_in_focus">चर्चा में</string>
+    <string name="home_important_links">महत्वपूर्ण लिंक</string>
+    <string name="home_link_1">विश्व स्वास्थ्य संगठन (WHO)</string>
+    <string name="home_link_1_1">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</string>
+    <string name="home_link_2">COVID-19 पर CDC का मार्गदर्शन</string>
+    <string name="home_link_2_1">https://www.cdc.gov/coronavirus/2019-ncov/index.html</string>
+    <string name="home_link_3">Google का COVID-19 का मैप</string>
+    <string name="home_link_3_1">https://google.com/covid19-map/?hl=en</string>
+    <string name="home_link_4">ट्विटर पे कोरोना वायरस के ट्वीट्स</string>
+    <string name="home_link_4_1">https://twitter.com/hashtag/coronavirus?lang=en</string>
+    <string name="home_link_5">COVID-19 भारत सरकार</string>
+    <string name="home_link_5_1">https://www.mohfw.gov.in/</string>
+    <string name="home_link_6">COVID-19 संसाधन केंद्र</string>
+    <string name="home_link_6_1">https://www.thelancet.com/coronavirus</string>
+    <string name="home_link_7">व्हाट्सएप कोरोनवायरस जानकारी हब</string>
+    <string name="home_link_7_1">https://www.whatsapp.com/coronavirus/</string>
+    <string name="home_show_live_tracking">नोटिफिकेशन में लाइव डाटा देखे</string>
+    <string name="home_show_district_live">जिला के डाटा देखने के लिए उन्हें सब्सक्राइब करे</string>
+
+
+    <string name="symptom_title">कोविड -19</string>
+    <string name="symptom_title_1">कोरोनावायरस रोग (COVID-19) एक संक्रामक रोग है जो एक नए खोजे गए कोरोनवायरस के कारण होता है। COVID-19 वायरस से संक्रमित अधिकांश लोग हल्के से मध्यम श्वसन बीमारी का अनुभव करेंगे और विशेष उपचार की आवश्यकता के बिना ठीक हो जाएंगे। वृद्ध लोगों, और हृदय रोग, मधुमेह, पुरानी सांस की बीमारी और कैंसर जैसी अंतर्निहित चिकित्सा समस्याओं वाले लोगों में गंभीर बीमारी विकसित होने की अधिक संभावना है।</string>
+    <string name="symptom_title_2">COVID-19 वायरस मुख्य रूप से लार की बूंदों या नाक से तब फैलता है जब किसी संक्रमित व्यक्ति को खांसी या छींक आती है, इसलिए यह महत्वपूर्ण है कि आप श्वसन शिष्टाचार का भी अभ्यास करें (उदाहरण के लिए, एक लचीली कोहनी में खांस कर)।</string>
+    <string name="symptom_title_3">लक्षण</string>
+    <string name="symptom_title_4">COVID-19 वायरस अलग-अलग लोगों को अलग-अलग तरीके से प्रभावित करता है। COVID-19 एक श्वसन रोग है और अधिकांश संक्रमित लोग हल्के से मध्यम लक्षणों को विकसित करेंगे और विशेष उपचार की आवश्यकता के बिना ठीक हो जाएंगे। जिन लोगों की अंतर्निहित चिकित्सा स्थितियां हैं और 60 वर्ष से अधिक उम्र है, उन लोगो में गंभीर बीमारी और मृत्यु होने का अधिक खतरा है। ये लक्षण एक्सपोजर के 2-14 दिनों बाद दिखाई दे सकते हैं (MERS-CoV वायरस के ऊष्मायन अवधि के आधार पर)।</string>
+    <string name="symptom_title_5">निवारण</string>
+    <string name="symptom_prevention_1">अपने हाथों को नियमित रूप से साबुन और पानी से धोएं, या उन्हें अल्कोहल-आधारित प्रक्षालक से रगड़कर साफ करें।</string>
+    <string name="symptom_prevention_2">आपके और खांसने या छींकने वाले लोगों के बीच कम से कम 1 मीटर की दूरी बनाए रखें।</string>
+    <string name="symptom_prevention_3">अपने चेहरे को छूने से बचें।</string>
+    <string name="symptom_prevention_4">खांसते या छींकते समय अपना मुंह और नाक ढक लें।</string>
+    <string name="symptom_prevention_5">यदि आप अस्वस्थ महसूस करते हैं तो घर पर ही रहें।</string>
+    <string name="symptom_prevention_6">धूम्रपान और फेफड़ों को कमजोर करने वाली अन्य गतिविधियों से बचना चाहिए।</string>
+    <string name="symptom_prevention_7">अनावश्यक यात्रा से बचने और लोगों के बड़े समूहों से दूर रहने से शारीरिक दूरी का अभ्यास करें।</string>
+    <string name="symptom_symptom_1">बुखार</string>
+    <string name="symptom_symptom_2">थकान</string>
+    <string name="symptom_symptom_3">सूखी खाँसी</string>
+    <string name="symptom_symptom_4">सांस की तकलीफ</string>
+    <string name="symptom_symptom_5">दर्द एवं पीड़ा</string>
+    <string name="symptom_symptom_6">गले में खराश</string>
+    <string name="symptom_symptom_7">दस्त, मतली</string>
+    <string name="symptom_symptom_8">बहती नाक</string>
+
+    <string name="social_title_1">सामाजिक दूरी का अभ्यास करें</string>
+    <string name="social_title_3">सिर्फ आपके लिए एक विशेष रूप से क्यूरेट की गई सूची!</string>
+    <string name="social_title_2">यहाँ कुछ सिफारिशें हैं</string>
+    <string name="social_news">समाचार</string>
+    <string name="social_entertainment">मनोरंजन</string>
+    <string name="social_education">शिक्षा</string>
+    <string name="social_health">स्वास्थ्य सम्बन्धी</string>
+    <string name="social_gaming">खेल मनोरंजन</string>
+    <string name="social_bizarre">विचित्र वेबसाइट</string>
+    <string name="social_virtual_socializing">आभासी सामाजिककरण</string>
+    <string name="title_activity_help">मदद पाए</string>
+
+    <string name="first_fragment_label">पहला टुकड़ा</string>
+    <string name="second_fragment_label">दूसरा टुकड़ा</string>
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+
+    <string name="hello_first_fragment">हैलो पहला टुकड़ा</string>
+    <string name="hello_second_fragment">नमस्ते दूसरा टुकड़ा। Arg: %1$s</string>
+    <string name="title_activity_login">लॉग इन करें</string>
+    <string name="title_activity_download_data">DownloadData</string>
+    <string name="title_activity_check">जाँच</string>
+
+    <string name="title_activity_country_chart_viewer">CountryChartViewer</string>
+    <string name="dummy_button">डमी बटन</string>
+    <string name="dummy_content">डमी \nCONTENT</string>
+    <string name="title_activity_settings">सेटिंग्स</string>
+
+</resources>

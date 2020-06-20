@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_news"
+        android:title="@string/title_news" />
+
+    <item
+        android:id="@+id/navigation_tracker"
+        android:icon="@drawable/ic_tracker"
+        android:title="@string/title_tracker" />
+
+    <item
+        android:id="@+id/navigation_symptoms"
+        android:icon="@drawable/ic_symptoms"
+        android:title="@string/title_symptoms" />
+
+    <item
+        android:id="@+id/navigation_social_distancing"
+        android:icon="@drawable/ic_social_distancing"
+        android:title="@string/title_social_distancing" />
+
+</menu>

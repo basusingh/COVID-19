@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup1">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:buttonTint="@color/home_title"
+            android:textSize="16sp"
+            android:textColor="@color/home_subtitle"
+            android:textStyle="bold"
+            android:id="@+id/sort_name"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textSize="16sp"
+            android:textColor="@color/home_subtitle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sort_active"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmed"
+            android:textSize="16sp"
+            android:textColor="@color/home_subtitle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sort_confirmed"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deaths"
+            android:textSize="16sp"
+            android:textColor="@color/home_subtitle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sort_deaths"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recovered"
+            android:textSize="16sp"
+            android:textColor="@color/home_subtitle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sort_recovered"/>
+    </RadioGroup>
+
+</LinearLayout>
