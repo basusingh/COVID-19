@@ -9,5 +9,6 @@ Features included:
 - Social Distancing tips and tricks (From Bizarre websites to gaming and best shows on Netflix)
 
 
-# Beta Update
+# Future Update
 - Dianosis of the virus based on Machine Learning on X-Rays and Medical Reports
+- Near by contact feature
